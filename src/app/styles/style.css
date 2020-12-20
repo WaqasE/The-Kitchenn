@@ -1,0 +1,223 @@
+:root{
+    --primary: #818181;
+    --secondary:rgb(255, 255, 255);
+    --accent:#ffa600;
+    --inactive:#7f8ba3;
+    --text:#FFF;
+}
+
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin:0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+
+
+select:focus{
+    outline: none;
+}
+
+
+/* ---------------------------Login--------------------------- */
+
+#loginBg1{
+    background: var(--accent);
+    height: 30vw;
+    position: absolute;
+    top: 0px;
+    width: 30vw;
+    z-index: 1;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+#loginBg2{
+    background: var(--accent);
+    height: 30vw;
+    position: absolute;
+    bottom:0;
+    width: 30vw;
+    z-index: 1;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+#loginWrapper{
+    align-items: center;
+    background: var(--secondary);
+    border-radius: 12px;
+    box-shadow: 0 0 10px var(--primary);
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 40px;
+    width: 380px;
+    z-index: 2;
+}
+
+input[type=submit]{
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;    
+}
+
+/* ---------------------------Selection--------------------------- */
+#selectionWrapper{ 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    min-width: 900px;;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+}
+
+/* ---------------------------Manager--------------------------- */
+
+#managerWrapper{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    min-width: 900px;;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#managerCardWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+/* ---------------------------Categories--------------------------- */
+
+#categoriesWrapper{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    min-width: 900px;;
+    justify-content: center;
+    align-items: center;
+}
+
+#categoriesCardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+/* ---------------------------Add Category--------------------------- */
+
+#addCardWrapper{
+    align-items: center;
+    background: var(--secondary);
+    border-radius: 12px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 40px;
+    width: 300px;
+    z-index: 2;
+}
+
+/* ---------------------------NewOrder--------------------------- */
+
+#orderWrapper{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    min-width: 900px;;
+    justify-content: center;
+    align-items: center;
+}
+
+#orderCardWrapper{
+    align-items: center;
+    background: var(--secondary);
+    border-radius: 12px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    padding: 40px;
+    width: 350px;
+    z-index: 2;
+}
+
+/* ---------------------------NewOrderOption--------------------------- */
+
+#newOrderOptionWrapper{ 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    min-width: 900px;;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+#newOrderOptionCardWrapper{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+#newOrderProductWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+
+/*--------------------------- addProductWrapper--------------------------- */
+#addProductWrapper{
+    align-items: center;
+    background: var(--secondary);
+    border-radius: 12px;
+    box-shadow: 0 0 10px var(--primary);
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 40px;
+    width: 380px;
+    z-index: 2;
+}
+
+
